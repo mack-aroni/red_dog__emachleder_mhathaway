@@ -2,7 +2,7 @@
 ---
 **Description**
 ---
-We ported Team madcusbad's blog onto an Apache server.
+* We ported Team madcusbad's blog onto an Apache server.
 ---
 **Roster**
 ---
