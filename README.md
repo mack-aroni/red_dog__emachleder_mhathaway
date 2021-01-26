@@ -1,1 +1,5 @@
-# red_dog__mhathaway_emachleder
+## Team Red Dog
+
+**Members**
+* Ethan Machleder (mack-aroni)
+* May Hathaway (mhathaway10)
