@@ -1,0 +1,41 @@
+<!--
+Team MadCauseBad - Ryan Ma, Jessica Yeung, May Hathaway, William Li
+SoftDev
+P0: Da Art of Storytellin' (Pt. 2)
+2021-01-08
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>REGISTRATION</title>
+  <link rel="stylesheet" href="\static\style.css">
+</head>
+
+<body>
+  <h1>
+    Please register below.
+  </h1>
+
+  <form action = "/register" method = "post">
+    <input type = "text" name = "username" placeholder = "Username" required>
+    <br>
+    <input type = "password" name = "passw" placeholder = "Password" required>
+    <br>
+    <br>
+    <input type = "submit" name= "signup" value = "Register">
+  </form>
+  <br>
+  <p> If your registration is successful, you will be redirected to the homepage. </p>
+  <b>
+    {{error}}
+  </b>
+  <form action = "/userhome" method = "post">
+    <input type = "submit" name "backhome" value = "Back">
+  </form>
+
+</body>
+
+</html>
